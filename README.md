@@ -6,8 +6,8 @@
 
 - Muse 提示词生成器 → https://catji.de5.net
 - 梯子订阅转换器 → https://ladder.384848.xyz
-- API 入口 api.384848.xyz（预留）
-- 状态监控 status.384848.xyz（预留）
+
+API 入口与状态监控已预留子域名，不在主站公开（仅资源汇总可见）。
 
 ## 部署
 
