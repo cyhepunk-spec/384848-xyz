@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>384848.xyz · 主站</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif; background: #f6f7f9; color: #1a1a1a; line-height: 1.6; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 60px; }
+  header { text-align: center; margin-bottom: 36px; }
+  header h1 { font-size: 32px; letter-spacing: 1px; }
+  header p { color: #666; margin-top: 8px; font-size: 15px; }
+  .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 560px) { .grid { grid-template-columns: 1fr 1fr; } }
+  .card { display: block; background: #fff; border: 1px solid #e5e7eb; border-radius: 14px; padding: 20px; text-decoration: none; color: inherit; transition: border-color .15s, box-shadow .15s; }
+  a.card:hover { border-color: #2563eb; box-shadow: 0 4px 16px rgba(37,99,235,.12); }
+  .card h2 { font-size: 18px; margin-bottom: 6px; }
+  .card p { color: #555; font-size: 14px; }
+  .card .url { display: block; margin-top: 10px; color: #2563eb; font-size: 13px; word-break: break-all; }
+  .card.reserved { background: #fafafa; color: #888; }
+  .card.reserved h2 { color: #888; }
+  .tag { display: inline-block; font-size: 12px; color: #888; border: 1px solid #ddd; border-radius: 20px; padding: 1px 8px; margin-left: 6px; vertical-align: 2px; }
+  footer { text-align: center; color: #999; font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>384848.xyz</h1>
+    <p>主站 · 工具导航</p>
+  </header>
+  <div class="grid">
+    <a class="card" href="https://catji.de5.net">
+      <h2>Muse 提示词生成器</h2>
+      <p>输入主题，生成一条可直接粘贴到 Muse 建 Space 的完整提示词。</p>
+      <span class="url">catji.de5.net</span>
+    </a>
+    <a class="card" href="https://ladder.384848.xyz">
+      <h2>梯子订阅转换器</h2>
+      <p>粘贴订阅内容，一键转为 Clash、sing-box、Surge、Quantumult X 等格式。</p>
+      <span class="url">ladder.384848.xyz</span>
+    </a>
+    <div class="card reserved">
+      <h2>API 入口<span class="tag">预留</span></h2>
+      <p>主站接口与服务入口，待第一个服务确定后开通。</p>
+      <span class="url">api.384848.xyz</span>
+    </div>
+    <div class="card reserved">
+      <h2>状态监控<span class="tag">预留</span></h2>
+      <p>服务运行状态，稍后上线。</p>
+      <span class="url">status.384848.xyz</span>
+    </div>
+  </div>
+  <footer>384848.xyz · 托管于 Cloudflare Pages</footer>
+</div>
+</body>
+</html>
